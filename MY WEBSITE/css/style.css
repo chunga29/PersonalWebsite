@@ -1,0 +1,35 @@
+body{
+  background-color: black;
+  color: white;
+  background-image: url("../Pictures/homepagebackground.jpg");
+  background-size: 100%;
+  background-attachment: scroll;
+}
+.nav_header{
+
+}
+.nav_list{
+  float: right;
+  margin-right: 15px;
+  position: relative;
+
+}
+.nav_header li{
+  display: inline;
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 8px;
+  cursor: pointer;
+}
+.nav_header li:hover{
+  color: #00ffff
+}
+.title_header{
+  font-family: Arial;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 200px;
+  background-color: blue;
+}
